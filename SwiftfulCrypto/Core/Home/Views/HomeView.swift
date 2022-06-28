@@ -97,7 +97,7 @@ extension HomeView {
         .listStyle(PlainListStyle())
     }
     
-    private vas columnTitles: some View {
+    private var columnTitles: some View {
         HStack {
             Text("Coin")
             Spacer()
