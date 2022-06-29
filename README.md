@@ -34,8 +34,8 @@ From [SwiftfulThinking](https://www.youtube.com/c/SwiftfulThinking)
 
 - It should work in iOS14
 
-- SwiftUI Crypto App (Intermediate level) Bootcamp #10 <- Status
-  https://www.youtube.com/watch?v=Z9yWdChUDlo&list=PLwvDm4Vfkdphbc3bgy_LpLRQ9DDfFGcFu&index=10
+- SwiftUI Crypto App (Intermediate level) Bootcamp #11 <- Status
+  https://www.youtube.com/watch?v=p-arH7VO4jk&list=PLwvDm4Vfkdphbc3bgy_LpLRQ9DDfFGcFu&index=11
 
 
 
