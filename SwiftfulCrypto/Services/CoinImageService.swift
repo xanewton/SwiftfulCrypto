@@ -39,9 +39,13 @@ class CoinImageService {
         guard let url = URL(string: coin.image) else { return }
         
         imageSubscription = NetworkingManager.download(url: url)
+            // the response is in the background thread
+            // To optimize, we will do the mapping in a background thread
             .tryMap({ (data) -> UIImage? in
                 return UIImage(data: data)
             })
+            // switch to the main thread before siking anything
+            .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: { [weak self] (returnedImage) in
                 guard
                     let self = self,

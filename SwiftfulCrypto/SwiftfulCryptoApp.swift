@@ -26,6 +26,7 @@ struct SwiftfulCryptoApp: App {
                     HomeView()
                         .navigationBarHidden(true)
                 }
+                .navigationViewStyle(StackNavigationViewStyle()) // force the iPad to have stacked style
                 .environmentObject(vm)
                 
                 // on top of the navigationView. To simulate launch screen
