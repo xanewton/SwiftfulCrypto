@@ -17,6 +17,8 @@ struct SwiftfulCryptoApp: App {
         // Overwrite the navigation colors
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(Color.theme.accent)]
+        UINavigationBar.appearance().tintColor = UIColor(Color.theme.accent)
+        UITableView.appearance().backgroundColor = UIColor.clear // all UITableViews will have this background color
     }
     
     var body: some Scene {

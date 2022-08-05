@@ -119,6 +119,7 @@ extension HomeView {
                         // We use this because a NavigationLink initializes all the destination views that are visible on screen with all its content (database queries, and everything the view has).
                         segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
@@ -132,6 +133,7 @@ extension HomeView {
                     .onTapGesture {
                         segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
