@@ -2,9 +2,9 @@
 
 [SwiftUI Crypto App (Intermediate level)](https://www.youtube.com/playlist?list=PLwvDm4Vfkdphbc3bgy_LpLRQ9DDfFGcFu)  
 
-![Scheme](/readmeImages/img1.png)
-![Scheme](/readmeImages/img2.png)
-![Scheme](/readmeImages/img3.png)
+![Scheme](/readmeImages/SimulatorScreenShot-iPhone13mini-2022-08-04at20.19.04.png)
+![Scheme](/readmeImages/SimulatorScreenShot-iPhone13mini-2022-08-04at20.19.22.png)
+![Scheme](/readmeImages/SimulatorScreenShot-iPhone13mini-2022-08-04at20.21.52.png)
 
 A SwiftUI cryptocurrency application that downloads live price data from an API and uses Core Data to save the current user's portfolio.
 
